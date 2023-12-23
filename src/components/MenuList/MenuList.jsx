@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../Home/Navbar/Navbar'
 import { NavLink } from 'react-router-dom'
 
 const MenuList = () => {
