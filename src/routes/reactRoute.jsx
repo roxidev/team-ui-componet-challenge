@@ -1,8 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Accordion from "../components/Accordion/Accordion";
 import MenuList from "../components/MenuList/MenuList";
-import Table from "../components/Table/Table";
-import Pagination from "../components/Pagination/Pagination";
+import Dropdown from "../components/Dropdown/Dropdown";
 
 export const reactRoute = createBrowserRouter([
   {
@@ -14,11 +13,8 @@ export const reactRoute = createBrowserRouter([
     element: <MenuList />,
   },
   {
-    path: "table",
-    element: <Table />,
-  },
-  {
-    path: "/pagination",
-    element: <Pagination />,
+    path:"dropdown",
+    element: <Dropdown/>,
+
   },
 ]);
