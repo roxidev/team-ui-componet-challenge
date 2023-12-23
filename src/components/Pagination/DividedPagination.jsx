@@ -5,7 +5,7 @@ import ComponentContainer from "../ui/ComponentContainer/ComponentContainer";
 
 const DividedPagination = () => {
   return (
-    <div className="drop-shadow-2xl  rounded-xl shadow-slate-50">
+   
       <ComponentContainer
         title={"Divided Pagination"}
         description={
@@ -56,7 +56,6 @@ const DividedPagination = () => {
           </ol>
         </div>
       </ComponentContainer>
-    </div>
   );
 };
 
