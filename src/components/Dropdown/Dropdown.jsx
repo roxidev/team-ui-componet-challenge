@@ -12,7 +12,7 @@ const Dropdown = () => {
   return (
     <div>
       {/* ====================Basic Dropdown======================== */}
-      {/* ==========Basic Dropdown=========== */}
+      
       <div className='shadow-lg p-6 rounded-lg mx-10'>
       <h1 className='text-slate-800 font-semibold my-10'>Basic Dropdown</h1>
       <p className="text-slate-400  my-10">Dropdowns are lightweight context menus for housing navigation and actions. <br /> Check out code for detail of usage</p>
