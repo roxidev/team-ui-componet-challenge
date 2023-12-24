@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ElementsLink = () => {
   return (
     <>
-      {/* <Link className="text-white bg-slate-900 py-2 px-5 rounded-sm" to={"/"}>
+      <Link className="text-white bg-slate-900 py-2 px-5 rounded-sm" to={"/"}>
         Home
       </Link>
       <Link
@@ -102,7 +102,7 @@ const ElementsLink = () => {
         to={"/elements/typography"}
       >
         Typography
-      </Link> */}
+      </Link>
     </>
   );
 };
