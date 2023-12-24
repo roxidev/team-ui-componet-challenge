@@ -11,6 +11,10 @@ import AvatarWithDots from "./AvatarWithDots";
 import SquircleAvatarDots from "./SquircleAvatarDots";
 import InitialWithDots from "./InitialWithDots";
 import AvatarDotColors from "./AvatarDotColors";
+import AvatarDotPing from "./AvatarDotPing";
+import AvatarDotPosition from "./AvatarDotPosition";
+import AvatarGroup from "./AvatarGroup";
+import SquareAvatarGroup from "./SquareAvatarGroup";
 
 const Avatar = () => {
   return (
@@ -28,6 +32,10 @@ const Avatar = () => {
       <SquircleAvatarDots />
       <InitialWithDots />
       <AvatarDotColors />
+      <AvatarDotPing />
+      <AvatarDotPosition />
+      <AvatarGroup />
+      <SquareAvatarGroup />
     </div>
   );
 };
