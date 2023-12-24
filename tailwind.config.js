@@ -16,7 +16,7 @@ export default {
         warning: "#ff9800",
         error: "#ff5724",
         "primary-soft": "#4f46e51a",
-        "secondarry-soft": "#f000b91a",
+        "secondary-soft": "#f000b91a",
         "info-soft": "#0ea5e91a",
         "success-soft": "rgba(16,185,129,.1)",
         "warning-soft": "#ff98001a",
@@ -47,7 +47,12 @@ export default {
         "success-soft-active": "rgba(16,185,129,.25)",
         "warning-soft-active": "rgba(255,152,0,.25)",
         "error-soft-active": "rgba(255,87,36,.25)",
-        
+        "primary-border": "#4f46e54d",
+        "secondary-border": "#f000b94d",
+        "info-border": "#0ea5e94d",
+        "success-border": "#10b9814d",
+        "warning-border": "#ff98004d",
+        "error-border": "#ff57244d",
       },
       fontSize: {
         "size-heading": "",

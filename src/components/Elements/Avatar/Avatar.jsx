@@ -4,6 +4,13 @@ import SquareAvatar from "./SquareAvatar";
 import SquircleAvatar from "./SquircleAvatar";
 import InitialAvatar from "./InitialAvatar";
 import SquircleInitialAvatar from "./SquircleInitialAvatar";
+import SquareInitialAvatar from "./SquareInitialAvatar";
+import SoftInitialAvatar from "./SoftInitialAvatar";
+import BorderedInitialAvatar from "./BorderedInitialAvatar";
+import AvatarWithDots from "./AvatarWithDots";
+import SquircleAvatarDots from "./SquircleAvatarDots";
+import InitialWithDots from "./InitialWithDots";
+import AvatarDotColors from "./AvatarDotColors";
 
 const Avatar = () => {
   return (
@@ -13,6 +20,14 @@ const Avatar = () => {
       <SquircleAvatar />
       <InitialAvatar />
       <SquircleInitialAvatar />
+      <SquareInitialAvatar />
+      <SoftInitialAvatar />
+      <BorderedInitialAvatar />
+      <SoftInitialAvatar />
+      <AvatarWithDots />
+      <SquircleAvatarDots />
+      <InitialWithDots />
+      <AvatarDotColors />
     </div>
   );
 };

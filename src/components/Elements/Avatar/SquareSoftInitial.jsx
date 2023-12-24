@@ -1,7 +1,7 @@
 import React from "react";
 import ComponentContainer from "../../ui/ComponentContainer/ComponentContainer";
 
-const InitialAvatar = () => {
+const SquareSoftInitial = () => {
   return (
     <ComponentContainer
       title={"Initial Avatar"}
@@ -32,4 +32,4 @@ const InitialAvatar = () => {
   );
 };
 
-export default InitialAvatar;
+export default SquareSoftInitial;
