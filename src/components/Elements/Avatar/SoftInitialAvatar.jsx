@@ -10,22 +10,22 @@ const SoftInitialAvatar = () => {
       }
     >
       <div className="flex flex-row gap-4 items-baseline">
-        <span className="bg-primary-soft text-primary rounded-[40%]  py-3 px-4">
+        <span className="bg-primary-soft text-primary rounded-full  py-3 px-4">
           JD
         </span>
-        <span className="bg-secondary-soft text-secondary rounded-[40%]  py-3 px-4">
+        <span className="bg-secondary-soft text-secondary rounded-full  py-3 px-4">
           JD
         </span>
-        <span className="bg-info-soft text-info rounded-[40%]  py-3 px-4">
+        <span className="bg-info-soft text-info rounded-full  py-3 px-4">
           JD
         </span>
-        <span className="bg-success-soft text-success rounded-[40%]  py-3 px-4">
+        <span className="bg-success-soft text-success rounded-full  py-3 px-4">
           JD
         </span>
-        <span className="bg-warning-soft text-warning rounded-[40%]  py-3 px-4">
+        <span className="bg-warning-soft text-warning rounded-full  py-3 px-4">
           JD
         </span>
-        <span className="bg-error-soft text-error rounded-[40%]  py-3 px-4">
+        <span className="bg-error-soft text-error rounded-full  py-3 px-4">
           JD
         </span>
       </div>

@@ -19,30 +19,37 @@ const AvatarDotColors = () => {
       }
     >
       <div className="flex flex-row gap-4 items-baseline">
+        {/* Default */}
         <div className="relative">
           <div className="bg-slate-400 absolute border-2 border-white right-0 h-[14px] w-[14px]  rounded-full"></div>
           <img src={avatar2} alt="" className="rounded-full  w-14 h-14" />
         </div>
+        {/* Primary */}
         <div className="relative">
           <div className="bg-primary absolute border-2 border-white right-0 h-[14px] w-[14px]  rounded-full"></div>
           <img src={avatar1} alt="" className="rounded-full w-14 h-14" />
         </div>
+        {/* Secondary */}
         <div className="relative">
           <div className="bg-secondary absolute border-2 border-white right-0 h-[14px] w-[14px]  rounded-full"></div>
           <img src={avatar3} alt="" className="rounded-full w-14 h-14" />
         </div>
+        {/* Info */}
         <div className="relative">
           <div className="bg-info absolute border-2 border-white right-0 h-[14px] w-[14px]  rounded-full"></div>
           <img src={avatar4} alt="" className="rounded-full w-14 h-14" />
         </div>
+        {/* Success */}
         <div className="relative">
           <div className="bg-success absolute border-2 border-white right-0 h-[14px] w-[14px] rounded-full"></div>
           <img src={avatar5} alt="" className="rounded-full w-14 h-14" />
         </div>
+        {/* Warning */}
         <div className="relative">
           <div className="bg-warning absolute border-2 border-white right-0 h-[14px] w-[14px]  rounded-full"></div>
           <img src={avatar6} alt="" className="rounded-full w-14 h-14" />
         </div>
+        {/* Error */}
         <div className="relative">
           <div className="bg-error absolute border-2 border-white right-0 h-[14px] w-[14px]  rounded-full"></div>
           <img src={avatar7} alt="" className="rounded-full w-14 h-14" />

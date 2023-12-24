@@ -3,8 +3,8 @@ import RoundedAvatar from "./RoundedAvatar";
 import SquareAvatar from "./SquareAvatar";
 import SquircleAvatar from "./SquircleAvatar";
 import InitialAvatar from "./InitialAvatar";
-import SquircleInitialAvatar from "./SquircleInitialAvatar";
 import SquareInitialAvatar from "./SquareInitialAvatar";
+import SquircleInitialAvatar from "./SquircleInitialAvatar";
 import SoftInitialAvatar from "./SoftInitialAvatar";
 import BorderedInitialAvatar from "./BorderedInitialAvatar";
 import AvatarWithDots from "./AvatarWithDots";
@@ -15,6 +15,9 @@ import AvatarDotPing from "./AvatarDotPing";
 import AvatarDotPosition from "./AvatarDotPosition";
 import AvatarGroup from "./AvatarGroup";
 import SquareAvatarGroup from "./SquareAvatarGroup";
+import AvatarSkeleton from "./AvatarSkeleton";
+import GradientBorder from "./GradientBorder";
+import SquareSoftInitial from "./SquareSoftInitial";
 
 const Avatar = () => {
   return (
@@ -23,11 +26,11 @@ const Avatar = () => {
       <SquareAvatar />
       <SquircleAvatar />
       <InitialAvatar />
-      <SquircleInitialAvatar />
       <SquareInitialAvatar />
+      <SquircleInitialAvatar />
       <SoftInitialAvatar />
       <BorderedInitialAvatar />
-      <SoftInitialAvatar />
+      <SquareSoftInitial />
       <AvatarWithDots />
       <SquircleAvatarDots />
       <InitialWithDots />
@@ -36,6 +39,8 @@ const Avatar = () => {
       <AvatarDotPosition />
       <AvatarGroup />
       <SquareAvatarGroup />
+      <AvatarSkeleton />
+      <GradientBorder />
     </div>
   );
 };
