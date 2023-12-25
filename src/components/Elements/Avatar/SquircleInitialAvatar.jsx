@@ -13,12 +13,20 @@ const SquircleInitialAvatar = () => {
         <span className="bg-default text-color-heading rounded-lg  py-3 px-4">
           JD
         </span>
-        <span className="bg-primary text-white rounded-lg  py-3 px-4">JD</span>
-        <span className="bg-seconday text-white rounded-lg  py-3 px-4">JD</span>
-        <span className="bg-info text-white rounded-lg  py-3 px-4">JD</span>
-        <span className="bg-success text-white rounded-lg  py-3 px-4">JD</span>
-        <span className="bg-warning text-white rounded-lg  py-3 px-4">JD</span>
-        <span className="bg-error text-white rounded-lg  py-3 px-4">JD</span>
+        <span className="bg-primary text-white rounded-[42%]  py-3 px-4">
+          JD
+        </span>
+        <span className="bg-secondary text-white rounded-[42%]  py-3 px-4">
+          JD
+        </span>
+        <span className="bg-info text-white rounded-[42%]  py-3 px-4">JD</span>
+        <span className="bg-success text-white rounded-[42%]  py-3 px-4">
+          JD
+        </span>
+        <span className="bg-warning text-white rounded-[42%]  py-3 px-4">
+          JD
+        </span>
+        <span className="bg-error text-white rounded-[42%]  py-3 px-4">JD</span>
       </div>
     </ComponentContainer>
   );

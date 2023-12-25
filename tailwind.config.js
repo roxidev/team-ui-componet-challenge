@@ -49,7 +49,12 @@ export default {
         "success-soft-active": "rgba(16,185,129,.25)",
         "warning-soft-active": "rgba(255,152,0,.25)",
         "error-soft-active": "rgba(255,87,36,.25)",
-        
+        "primary-border": "#4f46e54d",
+        "secondary-border": "#f000b94d",
+        "info-border": "#0ea5e94d",
+        "success-border": "#10b9814d",
+        "warning-border": "#ff98004d",
+        "error-border": "#ff57244d",
       },
       fontSize: {
         "size-heading": "",
