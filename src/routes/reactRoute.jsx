@@ -21,6 +21,7 @@ import Accordion from "../components/Accordion/Accordion";
 import Dropdown from "../components/Dropdown/Dropdown";
 import Pagination from "../components/Pagination/Pagination";
 import MenuList from "../components/MenuList/MenuList";
+import Tooltip from "../components/Elements/Tooltip/Tooltip";
 
 export const reactRoute = createBrowserRouter([
   {
@@ -89,7 +90,7 @@ export const reactRoute = createBrowserRouter([
       },
       {
         path: "tooltip",
-        element: <Progress />,
+        element: <Tooltip />,
       },
       {
         path: "typography",
