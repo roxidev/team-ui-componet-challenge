@@ -8,17 +8,17 @@ const FlatButton = () => {
         <div className='flex flex-wrap gap-3'>
             
             {/* ==============Primary button=============== */}
-            <button className=' py-1.5 px-5 rounded-md font-medium text-primary hover:bg-hover-primary-soft focus:bg-active-primary-soft active:bg-active-primary-soft'>Primary</button>
+            <button className=' py-1.5 px-5 rounded-md font-medium text-primary hover:bg-primary-soft-hover focus:bg-primary-soft-hover active:bg-primary-soft-active'>Primary</button>
             {/* ==============secondary button=============== */}
-            <button className=' py-1.5 px-5 rounded-md font-medium text-secondary hover:bg-hover-secondary-soft  focus:bg-active-secondary-soft active:bg-active-secondary-soft'>Secondary</button>
+            <button className=' py-1.5 px-5 rounded-md font-medium text-secondary hover:bg-secondary-soft-hover  focus:bg-secondary-soft-hover active:bg-secondary-soft-active'>Secondary</button>
             {/* ==============info button=============== */}
-            <button className=' py-1.5 px-5 rounded-md font-medium text-info hover:bg-hover-info-soft focus:bg-active-info-soft active:bg-active-info-soft'>Info</button>
+            <button className=' py-1.5 px-5 rounded-md font-medium text-info hover:bg-info-soft-hover focus:bg-info-soft-hover active:bg-info-soft-active'>Info</button>
             {/* ==============Success button=============== */}
-            <button className=' py-1.5 px-5 rounded-md font-medium text-success hover:bg-hover-success-soft focus:bg-active-success-soft active:bg-active-success-soft'>Success</button>
+            <button className=' py-1.5 px-5 rounded-md font-medium text-success hover:bg-success-soft-hover focus:bg-success-soft-hover active:bg-success-soft-active'>Success</button>
             {/* ==============Warning button=============== */}
-            <button className=' py-1.5 px-5rounded-md font-medium text-warning hover:bg-hover-warning-soft focus:bg-active-warning-soft active:bg-active-warning-soft'>Warning</button>
+            <button className=' py-1.5 px-5 rounded-md font-medium text-warning hover:bg-warning-soft-hover focus:bg-warning-soft-hover active:bg-warning-soft-active'>Warning</button>
             {/* ==============Error button=============== */}
-            <button className=' py-1.5 px-5 rounded-md font-medium text-error hover:bg-hover-error-soft focus:bg-active-error-soft active:bg-active-error-soft'>Error</button>
+            <button className=' py-1.5 px-5 rounded-md font-medium text-error hover:bg-error-soft-active focus:bg-error-soft-active active:bg-error-soft-active'>Error</button>
             
         </div>
         </ComponentContainer>
